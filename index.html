@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de Ingeniería en Sistemas Computacionales - Inicio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="temas.html">Temas de Estudio</a></li>
+        <li><a href="perfil.html">Perfil del Ingresante</a></li>
+        <li><a href="habilidades.html">Habilidades Adquiridas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section id="banner">
+    <h1>Bienvenidos al Blog de Ingeniería en Sistemas Computacionales</h1>
+    <p>Explora temas, habilidades y el perfil ideal para destacar en esta emocionante carrera.</p>
+  </section>
+
+  <!-- Presentación del Blog -->
+  <section id="presentacion">
+    <h2>¿Qué encontrarás en este blog?</h2>
+    <p>Este blog está diseñado para proporcionar una visión completa sobre la carrera de Ingeniería en Sistemas Computacionales. Aquí podrás conocer los temas de estudio, habilidades desarrolladas, y qué perfil es el ideal para tener éxito en este campo. Nos enfocamos en guiar a estudiantes y curiosos que buscan entender el impacto de la tecnología en la vida moderna.</p>
+    <div class="presentation-section">
+        <div class="presentation-card">
+            <img src="images/temas.png" alt="Tópicos">
+            <h3>Temas de Estudio</h3>
+            <p>Descubre el plan de estudios que ofrece la carrera de Sistemas Computacionales, abordando las diferentes ramas de esta ingeniería.</p>
+            <a href="temas.html"><button>Ver más</button></a>
+        </div>
+    
+        <div class="presentation-card">
+            <img src="images/perfil-profesional.png" alt="Perfil de Egreso">
+            <h3>Perfil de Egreso</h3>
+            <p>Conoce las habilidades y aptitudes que posee un Ingeniero en Sistemas Computacionales para destacar en el campo profesional.</p>
+            <a href="perfil.html"><button>Ver más</button></a>
+        </div>
+    
+        <a href="habilidades.html">
+            
+        </a>
+        <div class="presentation-card">
+            <img src="images/skills.png" alt="Habilidades destacadas">
+            <h3>Habilidades Destacadas</h3>
+            <p>Explora las habilidades técnicas que un Ingeniero en Sistemas Computacionales es capaz de desarrollar durante su trayecto profesional.</p>
+            <a href="habilidades.html"><button>Ver más</button></a>
+        </div>
+    </div>
+
+  </section>
+
+  <!-- Cartas de Recomendaciones -->
+   <section id="recomendacion">
+    <h2>Opiniones profesionales</h2>
+    <div class="recommendation-section">
+        <div class="recommendation-card">
+            <img src="images/inge-01.jpg" alt="Imagen de María López">
+            <h3>Ing. María López</h3>
+            <p>“Estudiar Ingeniería en Sistemas Computacionales abrió mi mente a infinitas oportunidades en el desarrollo de software y la inteligencia artificial...”</p>
+        </div>
+        <div class="recommendation-card">
+            <img src="images/inge-03.jpg" alt="Imagen de José Martínez">
+            <h3>Ing. José Martínez</h3>
+            <p>“La carrera me enseñó no solo habilidades técnicas, sino también a trabajar en equipo y resolver problemas reales...”</p>
+        </div>
+        <div class="recommendation-card">
+            <img src="images/inge-02.jpg" alt="Imagen de Carla Rodríguez">
+            <h3>Ing. Carla Rodríguez</h3>
+            <p>“Esta carrera me dio las herramientas para entender y transformar datos en conocimiento...”</p>
+        </div>
+        </div>
+   </section>
+
+  
+
+  <!-- Formulario de Contacto -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes alguna pregunta o quieres saber más sobre Ingeniería en Sistemas Computacionales? ¡Escríbenos!</p>
+    <form action="submit_form.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Blog de Ingeniería en Sistemas Computacionales</p>
+  </footer>
+</body>
+</html>
